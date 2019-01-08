@@ -8,7 +8,9 @@ The first iteration of modifications:
 - Added a simple REST controller invoked by that application
 - Added new Spock spec to test said controller
 
-Result: Like the original example project, executing `mvn clean test` runs all tests including the new one successfully.
+Result: 
+- Like the original example project, executing `mvn clean test` runs all tests including the new one successfully.
+- Additionally the Spring Boot application can be run via `mvn spring-boot:run`
 
 Original readme:
 ---------------
