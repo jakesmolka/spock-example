@@ -1,3 +1,18 @@
+WIP Test Fork
+=============
+This fork is a small test to extend the official Spock example project with Spring Boot functionality.
+
+The first iteration of modifications:
+- Modified POM file to include necessary depencies
+- Added a simple Spring Boot application
+- Added a simple REST controller invoked by that application
+- Added new Spock spec to test said controller
+
+Result: Like the original example project, executing `mvn clean test` runs all tests including the new one successfully.
+
+Original readme:
+---------------
+
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/spockframework/spock/blob/master/LICENSE)
 [![Build Status](https://img.shields.io/travis/spockframework/spock-example/master.svg?label=Build)](https://travis-ci.org/spockframework/spock-example)
 [![Gitter](https://badges.gitter.im/spockframework/spock.svg)](https://gitter.im/spockframework/spock?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
